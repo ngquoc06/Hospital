@@ -1,23 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-    <link rel="stylesheet" href="frm_gioithieu.css">
-
-    <title>Giới thiệu</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="frm_dangnhap.css">
+    <title>Đăng nhập</title>
 </head>
 
 <body>
     <div class="main">
         <div class="box">
-            <div class="gioi-thieu">Chào mừng tới trang web bệnh nhân của phòng khám Điện Biên Phủ</div>
-            <button><a href="frm_dangnhap.html">Đăng ký người dùng</a></button>
+            <h3 class="text-center">XIN MỜI KHÁCH HÀNG ĐIỀN ĐẦY ĐỦ THÔNG TIN</h3>
+            <h3 class="text-center">SAU ĐÓ ẤN NÚT TRA CỨU KẾT QUẢ ĐỂ XEM</h3>
+            <div class="line">
+                <hr>
+            </div>
+            <form action="">
+                <div class="form-group">
+                    <label for="mabn" class="mabn"><i class="fa fa-user" style="margin-right: 10px;"></i>Mã bệnh
+                        nhân</label>
+                    <input type="text" class="form-control" id="mabn"
+                        placeholder="Thông tin về mã bệnh nhân">
+                </div>
+                <div class="form-group">
+                    <label for="password" class="password"><i class="fa fa-lock" style="margin-right: 10px;"></i>Mật
+                        khẩu</label>
+                    <input type="password" class="form-control" id="password" placeholder="Mật khẩu">
+                </div>
+
+                <div class="form-group text-center">
+                    <input type="submit" class="tra-cuu btn btn-primary" value="TRA CỨU KẾT QUẢ" />
+                </div>
+
+                <div class="contact">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6 dienthoai">
+                            <label class=""><a href="tel:02203561373">Điện thoại: 02203.561373</a></label>
+                        </div>
+                        <div class="col-xs-12 col-md-6 htkh">
+                            <label class=""><a href="./frm_ketqua.html">Hỗ trợ khách hàng</a></label>
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
+
     </div>
 </body>
 
