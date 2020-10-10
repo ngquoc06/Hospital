@@ -1,0 +1,48 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    height: 100%;
+}
+
+.main {
+    background-image: url(./images/bg.jpeg);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 30px 30px 0px 30px; 
+    /* background: rgba(0, 0, 0, 0.4); */
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box .gioi-thieu {
+    font-size: 25px;
+    color: Black;
+    line-height: 20px;
+    font-weight: 100;
+}
+
+.box button {
+    background-color: transparent;
+    padding: 15px 50px;
+    border: 2px solid #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.box button:hover {
+    background: #007bff;
+    color: #fff;
+}
